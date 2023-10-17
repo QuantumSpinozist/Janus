@@ -45,7 +45,7 @@ class WatchWidget:
     def __init__(self, root,watch):
         self.root = root
         self.watch = watch
-        self.label = tb.Label(self.root, text='Test',bootstyle="default")
+        self.label = tb.Label(self.root, text='Test',bootstyle="light")
 
     def counter_label(self):
         def counter():
